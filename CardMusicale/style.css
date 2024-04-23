@@ -1,0 +1,25 @@
+img:hover {
+  transform: scale(1.2);
+}
+
+.card:hover {
+  z-index: 5;
+  transform: scale(1.1);
+  border: solid 1px rgb(0, 0, 0);
+  background-color: rgb(160, 160, 160);
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+h5 {
+  text-align: center;
+  font-size: medium;
+}
+
+.card-text {
+  text-align: initial;
+  font-size: small;
+}
